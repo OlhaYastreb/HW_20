@@ -1,0 +1,87 @@
+.body {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 77px;
+    background: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.OY a {
+    font-size: 36px;
+    background-color: black;
+    text-align: center;
+    color: #FFD2DD;
+    font-family: 'Great Vibes', cursive;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+}
+
+#dropDown {
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+}
+
+#dropDown li {
+    margin: 0;
+    padding: 15px;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#dropDown a:hover {
+    color: #FFD2DD;
+}
+
+#toggle {
+    background-color: black;
+    padding: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#toggle img {
+    width: 9px;
+    height: 6px;
+}
+
+.progress-bar {
+    background-color: white;
+    padding: 50px;
+    color: black;
+}
+
+.progress-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.progress-bar li {
+    list-style-type: none;
+    padding: 20px;
+}
